@@ -1,11 +1,28 @@
 {
-  "name": "contact-manager-app-typescript",
+  "name": "oktaf-base",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egi361/react-base.git"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "oktaf"
+  ],
+  "author": "Egi Apriandi (egi361)",
   "scripts": {
     "dev": "vite",
     "build": "yarn build:esm && yarn build:cjs  && vite build",
